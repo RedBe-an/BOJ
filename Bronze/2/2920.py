@@ -6,6 +6,7 @@ def determine_sequence(nums):
     else:
         return "mixed"
 
+
 input_nums = list(map(int, input().split()))
 
 result = determine_sequence(input_nums)
